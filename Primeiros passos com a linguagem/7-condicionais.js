@@ -15,16 +15,7 @@ const temPassagemComprada = true
 console.log("Destinos possíveis: ");
 console.log(listaDeDestinos);
 
-// if (idadeComprador >= 18) {
-//     console.log("Comprador maior de idade");
-//     listaDeDestinos.splice(2, 1);//Removendo item no elemento!
-// } else if (estaAcompanhada) {
-//     console.log("Comprador está acompanhado");
-//     listaDeDestinos.splice(2, 1);//Removendo item no elemento!
 
-// } else {
-//     console.log("Não  é maior de Idade e não posso vender");
-// }
 
 
 if (idadeComprador >= 18 || estaAcompanhada == true) {
