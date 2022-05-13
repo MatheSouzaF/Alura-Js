@@ -6,17 +6,12 @@ const listaDeDestinos = new Array(
     `Gaspar`,
 );
 
-
-<<<<<<< aula
 const idadeComprador = 18;
 const estaAcompanhada = false
 const temPassagemComprada = true
 
 console.log("Destinos possíveis: ");
 console.log(listaDeDestinos);
-
-
-
 
 if (idadeComprador >= 18 || estaAcompanhada == true) {
     console.log("Boa Viagem!");
@@ -32,12 +27,5 @@ if(idadeComprador >= 18 && temPassagemComprada){
     console.log("Voce não pode embarcar")
 }
 
-=======
-const idadeComprador = 15;
-console.log("Destinos possíveis: ");
 console.log(listaDeDestinos);
 
-//Removendo item no elemento!
-listaDeDestinos.splice(3,1);
->>>>>>> master
-console.log(listaDeDestinos);
